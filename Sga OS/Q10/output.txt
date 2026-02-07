@@ -1,0 +1,27 @@
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano signal_demo.c
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# gcc signal_demo.c -o signal_demo
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ./signal_demo
+
+Parent process running. PID: 190559
+Child 1 sending SIGTERM to parent.
+Parent received SIGTERM (signal 15). Handling gracefully.
+Child 2 sending SIGINT to parent.
+Parent received SIGINT (signal 2). Exiting gracefully.
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# 
+
+
+
+
+
+
+

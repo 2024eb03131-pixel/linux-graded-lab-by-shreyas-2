@@ -1,0 +1,4 @@
+nano sync.sh
+chmod +x sync.sh
+mkdir dirA dirB
+./sync.sh

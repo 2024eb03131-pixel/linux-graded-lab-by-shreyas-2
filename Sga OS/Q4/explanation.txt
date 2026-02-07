@@ -1,0 +1,5 @@
+1. Created emailcleaner.sh to process email addresses from emails.txt.
+2. Used grep with extended regular expressions to extract valid email formats.
+3. Applied sort and uniq commands to remove duplicate valid email entries.
+4. Used grep with inverse matching to identify invalid email addresses.
+5. Stored valid and invalid results into separate files using redirection.

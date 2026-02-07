@@ -1,0 +1,3 @@
+bob@site
+mark_45@yahoo.com
+invalid@email

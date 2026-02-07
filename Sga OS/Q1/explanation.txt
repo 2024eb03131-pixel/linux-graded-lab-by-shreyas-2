@@ -1,0 +1,5 @@
+1. Created the analyze.sh script using nano to accept a command-line argument and perform file or directory analysis.
+2. Used chmod +x to make the script executable.
+3. Executed the script with a file and observed line, word, and character count output.
+4. Executed the script with a directory and observed total file and .txt file count.
+5. Tested invalid input to confirm proper error handling.

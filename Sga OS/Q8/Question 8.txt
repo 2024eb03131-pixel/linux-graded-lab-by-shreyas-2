@@ -1,0 +1,2 @@
+Question 8 [6 Points]
+Create a shell script bg_move.sh that accepts a directory path. • Move each file in the directory into a subdirectory named backup/ • Perform each move operation in the background • Display the PID of each background process • Wait for all background processes to finishUse &, wait, $$, and $! variables.

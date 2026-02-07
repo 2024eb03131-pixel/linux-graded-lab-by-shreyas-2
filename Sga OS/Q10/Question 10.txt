@@ -1,0 +1,2 @@
+Question 10 [6 Points]
+Write a C program demonstrating signal handling. • Parent process runs indefinitely • Child process sends SIGTERM after 5 seconds • Another child sends SIGINT after 10 seconds • Parent handles each signal differently and exits gracefully

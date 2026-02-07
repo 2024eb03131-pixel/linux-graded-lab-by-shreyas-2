@@ -1,0 +1,46 @@
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano sync.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# chmod +x sync.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# mkdir dirA dirB
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# echo "Hello World" > dirA/file1.txt
+echo "Linux Script" > dirA/file2.txt
+echo "Only in A" > dirA/fileA.txt
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# echo "Hello World" > dirB/file1.txt
+echo "Different Content" > dirB/file2.txt
+echo "Only in B" > dirB/fileB.txt
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ls
+Desktop  dirA  dirB  Documents  Downloads  Music  Pictures  Public  sync.sh  Templates  Videos
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ./sync.sh
+
+Files only in dirA:
+-------------------
+fileA.txt
+
+Files only in dirB:
+-------------------
+fileB.txt
+
+Files present in both directories but with different content:
+-------------------------------------------------------------
+file2.txt
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# 

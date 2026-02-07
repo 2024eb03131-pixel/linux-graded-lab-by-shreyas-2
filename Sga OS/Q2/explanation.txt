@@ -1,0 +1,5 @@
+1. Created the log_analyze.sh script to analyze log files passed as command-line arguments.
+2. Implemented file existence and readability checks to handle errors gracefully.
+3. Used wc and grep commands to count total log entries and specific log levels.
+4. Extracted the most recent ERROR message using grep and tail.
+5. Generated a dated summary report file containing all analysis results.

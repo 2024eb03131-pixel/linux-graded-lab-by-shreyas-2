@@ -1,0 +1,5 @@
+1. Created patterns.sh to classify words from input.txt based on vowel and consonant patterns.
+2. Used tr with pipes to split text into individual words and convert them to lowercase.
+3. Used grep with regular expressions to identify words containing only vowels or only consonants.
+4. Identified mixed words that start with a consonant and contain both vowels and consonants.
+5. Stored the classified words into separate output files using redirection.

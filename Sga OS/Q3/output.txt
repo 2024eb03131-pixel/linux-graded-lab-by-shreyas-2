@@ -1,0 +1,40 @@
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano validate_results.sh
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# chmod +x validate_results.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano marks.txt
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ./validate_results.sh
+
+./validate_results.sh: 1: i#!/bin/bash: not found
+Students who failed in exactly ONE subject:
+------------------------------------------
+102, Anita
+104, Shesh
+./validate_results.sh: 22: [: Illegal number: 
+./validate_results.sh: 25: [: Illegal number: 
+./validate_results.sh: 28: [: Illegal number: 
+
+Students who passed in ALL subjects:
+-----------------------------------
+i101, Shreyas
+103, Sunil
+105, Amit
+./validate_results.sh: 49: [: Illegal number: 
+
+Summary:
+--------
+Students passed in all subjects: 4
+Students failed in exactly one subject: 2
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# 
+
+

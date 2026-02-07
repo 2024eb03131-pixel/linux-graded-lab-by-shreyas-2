@@ -1,0 +1,2 @@
+Question 5 [6 Points]
+Create a shell script sync.sh to compare two directories dirA and dirB.Your script should: • List files present only in dirA • List files present only in dirB • For files with the same name in both directories, check whether their contents matchDo NOT copy or modify files.Use diff, cmp, or checksum techniques.

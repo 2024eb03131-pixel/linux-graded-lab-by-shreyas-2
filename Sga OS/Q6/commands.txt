@@ -1,0 +1,4 @@
+nano metrics.sh
+chmod +x metrics.sh
+nano input.txt
+./metrics.sh

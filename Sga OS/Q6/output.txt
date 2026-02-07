@@ -1,0 +1,26 @@
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano metrics.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# chmod +x metrics.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano input.txt
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ./metrics.sh
+
+./metrics.sh: line 27: bc: command not found
+Longest word: automation
+Shortest word: is
+Average word length: 
+Total unique words: 11
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# 
+
+

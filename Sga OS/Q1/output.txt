@@ -1,0 +1,63 @@
+┌──(kali㉿kali)-[~]
+└─$ sudo su    
+[sudo] password for kali: 
+┌──(root㉿kali)-[/home/kali]
+└─# nano analyze.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# lds                    
+Command 'lds' not found, did you mean:
+  command 'ls' from deb coreutils
+  command 'ldd' from deb libc-bin
+  command 'lvs' from deb lvm2
+  command 'lsd' from deb lsd
+  command 'les' from deb atm-tools
+  command 'ldb' from deb rocksdb-tools
+  command 'ld' from deb binutils
+  command 'lrs' from deb lrslib
+Try: apt install <deb name>
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ls                     
+analyze.sh  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# chmod +x analyze.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano studentdata.txt
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ls                  
+analyze.sh  Desktop  Documents  Downloads  Music  Pictures  Public  studentdata.txt  Templates  Videos
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ./analyze.sh studentdata.txt 
+./analyze.sh: 1: i#!/bin/bash: not found
+The given argument is a file.
+Lines: 8
+Words: 51
+Characters: 316
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ./analyze.sh myfolder
+
+./analyze.sh: 1: i#!/bin/bash: not found
+Error: The specified path does not exist.
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ./analyze.sh
+
+./analyze.sh: 1: i#!/bin/bash: not found
+Error: Please provide exactly one argument.
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ./analyze.sh wrongpath
+
+./analyze.sh: 1: i#!/bin/bash: not found
+Error: The specified path does not exist.
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# 

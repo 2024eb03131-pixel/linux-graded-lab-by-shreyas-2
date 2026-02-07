@@ -1,0 +1,8 @@
+Studentid | Name               | Age | Class  | Marks
+------------------------------------------------------
+101       | Shreyas Javalkar   | 15  | 10-A   | 82
+102       | Shesh Jaavalkar    | 14  | 9-B    | 88
+103       | Shobha Javalkar    | 15  | 10-A   | 76
+104       | Sneha Kulkarni     | 14  | 9-C    | 91
+
+o

@@ -1,0 +1,25 @@
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano zombie_prevention.c
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# gcc zombie_prevention.c -o zombie_prevention
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ./zombie_prevention
+
+Parent process started. PID: 187294
+Child process created. PID: 187296
+Child process created. PID: 187297
+Child process created. PID: 187295
+Parent cleaned up child with PID: 187296
+Parent cleaned up child with PID: 187297
+Parent cleaned up child with PID: 187295
+All child processes cleaned. No zombies remain.
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─#                                             
+
+

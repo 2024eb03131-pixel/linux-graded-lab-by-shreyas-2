@@ -1,0 +1,2 @@
+Linux shell scripting is powerful and efficient
+Shell scripting makes automation easy and powerful

@@ -1,0 +1,41 @@
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano bg_move.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ls
+bg_move.sh  Desktop  dirA  dirB  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano bg_move.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# chmod +x bg_move.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# mkdir testdir
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# touch testdir/file1.txt testdir/file2.txt testdir/file3.txt 
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ./bg_move.sh testdir
+
+Parent script PID: 182674
+
+Started background move for file1.txt with PID 182676
+Started background move for file2.txt with PID 182678
+Started background move for file3.txt with PID 182680
+
+All background file move operations completed.
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# 
+
+
+
+

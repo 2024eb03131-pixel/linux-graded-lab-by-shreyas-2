@@ -1,0 +1,49 @@
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano patterns.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ls
+Desktop  dirA  dirB  Documents  Downloads  Music  patterns.sh  Pictures  Public  Templates  Videos
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# chmod +x patterns.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano input.txt
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ls
+Desktop  dirA  dirB  Documents  Downloads  input.txt  Music  patterns.sh  Pictures  Public  Templates  Videos
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ./patterns.sh
+
+Pattern classification completed.
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ls
+consonants.txt  Desktop  dirA  dirB  Documents  Downloads  input.txt  mixed.txt  Music  patterns.sh  Pictures  Public  Templates  Videos  vowels.txt
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# cat vowels.txt      
+aeiou
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# cat mixed.txt 
+tree
+boot
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# cat consonants.txt 
+sky
+bcd
+fly
+crypt
+rhythm
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# 

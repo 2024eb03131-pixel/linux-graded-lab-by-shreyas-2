@@ -1,0 +1,5 @@
+1. Created multiple child processes using the fork() system call.
+2. Each child process terminates after execution using exit().
+3. The parent process uses the wait() system call to collect the termination status of each child.
+4. The parent prints the PID of each child process it cleans up.
+5. Using wait() prevents zombie processes by removing terminated children from the process table.

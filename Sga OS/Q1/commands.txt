@@ -1,0 +1,5 @@
+nano analyze.sh
+chmod +x analyze.sh
+./analyze.sh sample.txt
+./analyze.sh 
+./analyze.sh 

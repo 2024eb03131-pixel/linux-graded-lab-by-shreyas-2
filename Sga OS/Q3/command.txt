@@ -1,0 +1,4 @@
+nano validate_results.sh
+chmod +x validate_results.sh
+nano marks.txt
+./validate_results.sh

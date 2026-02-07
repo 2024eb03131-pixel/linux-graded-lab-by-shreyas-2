@@ -1,0 +1,5 @@
+1. Created validate_results.sh to read student records from marks.txt using a while loop.
+2. Used conditional statements to check passing marks (>=33) for each subject.
+3. Counted the number of failed subjects using arithmetic operations.
+4. Displayed students who failed in exactly one subject and those who passed all subjects.
+5. Maintained counters to display the total number of students in each category.

@@ -1,0 +1,5 @@
+1. Created metrics.sh to analyze text from input.txt.
+2. Used tr with pipes to separate words and remove punctuation.
+3. Used sort and awk to identify the longest and shortest words.
+4. Calculated average word length using word and character counts.
+5. Used sort and uniq to determine the total number of unique words.

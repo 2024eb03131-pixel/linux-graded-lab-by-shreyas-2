@@ -1,0 +1,4 @@
+nano log_analyze.sh
+chmod +x log_analyze.sh
+nano system.log
+./log_analyze.sh system.log

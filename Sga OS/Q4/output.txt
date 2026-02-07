@@ -1,0 +1,35 @@
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano emailcleaner.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ls
+Desktop  Documents  Downloads  emailcleaner.sh  Music  Pictures  Public  Templates  Videos
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# chmod +x emailcleaner.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano emails.txt
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ls
+Desktop  Documents  Downloads  emailcleaner.sh  emails.txt  Music  Pictures  Public  Templates  Videos
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ./emailcleaner.sh
+
+Email processing completed.
+Valid emails saved in valid.txt
+Invalid emails saved in invalid.txt
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ls
+Desktop  Documents  Downloads  emailcleaner.sh  emails.txt  invalid.txt  Music  Pictures  Public  Templates  valid.txt  Videos
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# 
+

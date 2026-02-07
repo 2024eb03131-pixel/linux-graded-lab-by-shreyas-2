@@ -1,0 +1,5 @@
+nano bg_move.sh
+chmod +x bg_move.sh
+mkdir testdir
+touch testdir/file1.txt testdir/file2.txt testdir/file3.txt
+./bg_move.sh testdir

@@ -1,0 +1,5 @@
+1. Created bg_move.sh to move files from a directory into a backup subdirectory.
+2. Used & to run each file move operation in the background.
+3. Displayed the PID of each background process using the $! variable.
+4. Displayed the parent script PID using $$.
+5. Used the wait command to ensure all background processes completed before exiting.

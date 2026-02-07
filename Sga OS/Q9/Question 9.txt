@@ -1,0 +1,2 @@
+Question 9 [6 Points]
+Write a C program to demonstrate zombie process prevention. • Create multiple child processes • Ensure terminated child processes do not remain zombies • Parent process should print the PID of each child it cleans upUse fork(), wait(), or waitpid().

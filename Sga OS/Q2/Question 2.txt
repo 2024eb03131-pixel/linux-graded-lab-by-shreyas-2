@@ -1,0 +1,17 @@
+Question 2 [6 Points]
+You are given a log file containing entries in the format:
+YYYY-MM-DD HH:MM:SS LEVEL MESSAGE
+Example:
+2025-01-12 10:15:22 INFO System started
+2025-01-12 10:16:01 ERROR Disk not found
+2025-01-12 10:16:45 WARNING High memory usage
+2025-01-12 10:17:10 ERROR Network timeout
+Requirements:
+1. The script must accept the log file name as a command-line argument.
+2. Validate that the file exists and is readable.
+3. Count and display:
+  - Total number of log entries
+  - Number of INFO, WARNING, and ERROR messages
+4. Display the most recent ERROR message.
+5. Generate a report file named logsummary_<date>.txt.
+6. Handle errors gracefully with meaningful messages.

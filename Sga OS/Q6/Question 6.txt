@@ -1,0 +1,2 @@
+Question 6 [6 Points]
+Create a shell script metrics.sh that analyzes a text file input.txt.The script should display: • Longest word • Shortest word • Average word length • Total number of unique wordsUse pipes and commands such as tr, sort, uniq, wc.

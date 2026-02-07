@@ -1,0 +1,2 @@
+Question 4 [6 Points]
+Create a shell script emailcleaner.sh that processes emails.txt. • Extract all valid email addresses and store them in valid.txt • Extract invalid email addresses and store them in invalid.txt • Remove duplicate entries from valid.txtValid email format:<letters_and_digits>@<letters>.comUse grep, sort, uniq, and redirection.

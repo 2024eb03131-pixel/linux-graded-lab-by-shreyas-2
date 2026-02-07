@@ -1,0 +1,5 @@
+1. Created sync.sh to compare files between two directories without copying or modifying them.
+2. Used loops to identify files present only in dirA and only in dirB.
+3. Used the cmp command to compare contents of files with the same name in both directories.
+4. Displayed files whose contents differ while ignoring identical files.
+5. Ensured the script performs only comparison operations as required.

@@ -1,0 +1,2 @@
+Question 3 [6 Points]
+Write a shell script validate_results.sh that reads student data from marks.txt.Each line contains:RollNo, Name, Marks1,Marks2,Marks3Your script should: • Print students who failed in exactly ONE subject • Print students who passed in ALL subjects • Print the count of students in each categoryPassing marks for each subject is 33.Use loops, conditionals, and arithmetic operations.

@@ -1,0 +1,2 @@
+Question 7 [6 Points]
+Write a shell script patterns.sh that reads a text file and: • Writes words containing ONLY vowels into vowels.txt • Writes words containing ONLY consonants into consonants.txt • Writes words containing both vowels and consonants but starting with a consonant into mixed.txt, Case should be ignored while checking patterns.

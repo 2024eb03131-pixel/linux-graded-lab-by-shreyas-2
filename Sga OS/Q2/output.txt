@@ -1,0 +1,35 @@
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano log_analyze.sh
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ls
+Desktop  Documents  Downloads  log_analyze.sh  Music  Pictures  Public  Templates  Videos
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# chmod +x log_analyze.sh
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# nano system.log
+
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ls
+Desktop  Documents  Downloads  log_analyze.sh  Music  Pictures  Public  system.log  Templates  Videos
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# ./log_analyze.sh system.log
+
+Total log entries: 5
+INFO messages: 1
+WARNING messages: 1
+ERROR messages: 2
+Most recent ERROR:
+2025-01-12 10:17:10 ERROR Network timeout
+Report generated: logsummary_2026-02-07.txt
+                                                                                                                                                                               
+┌──(root㉿kali)-[/home/kali]
+└─# output.txt
+
+

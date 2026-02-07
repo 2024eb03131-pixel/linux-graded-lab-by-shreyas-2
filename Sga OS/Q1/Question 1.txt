@@ -1,0 +1,2 @@
+Question 1 [6 Points]
+Create a shell script named analyze.sh that accepts exactly ONE command-line argument. • If the argument is a file: – Display the number of lines, words, and characters in the file. • If the argument is a directory: – Display the total number of files present. – Display the number of .txt files in the directory. • If the argument count is invalid or the path does not exist: – Display an appropriate error message.
